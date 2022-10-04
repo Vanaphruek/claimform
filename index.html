@@ -33,7 +33,7 @@
             let userId = profile.userId;
             let displayName = profile.displayName;
             let pictureUrl = profile.pictureUrl;
-            let url = "https://script.google.com/macros/s/AKfycbxfRJaLXU4M_NqVDZyIz8p6D-vU0dE7VulqLKHLJ-d5SWc5tRY8a63yRZsQ7qfGsdCExQ/exec?page=claimform1"+"&userId=" + userId + "&displayName=" + displayName + "&pictureUrl=" + pictureUrl;
+            let url = "https://script.google.com/macros/s/AKfycbxfRJaLXU4M_NqVDZyIz8p6D-vU0dE7VulqLKHLJ-d5SWc5tRY8a63yRZsQ7qfGsdCExQ/exec?page=claimform2"+"&userId=" + userId + "&displayName=" + displayName + "&pictureUrl=" + pictureUrl;
             document.getElementById("formframe").src = url;
 			let decodedIDToken = liff.getDecodedIDToken().email;
         }).catch(err => console.error(err));
